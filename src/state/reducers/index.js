@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import amountReducer, { reducer } from "./amountReducer";
+import amountReducer from "./amountReducer";
 const reducers = combineReducers({
   amount: amountReducer,
 });

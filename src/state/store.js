@@ -1,7 +1,6 @@
-import finalPropsSelectorFactory from "react-redux/es/connect/selectorFactory";
 import { createStore, applyMiddleware } from "redux";
 
 import thunk from "redux-thunk";
-import reducer from "./reducers/amountReducer";
+import reducers from "./reducers";
 
-export const store = createStore(reducer, {}, applyMiddleware(thunk));
+export const store = createStore(reducers, {}, applyMiddleware(thunk));
