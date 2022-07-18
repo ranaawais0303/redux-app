@@ -34,7 +34,7 @@ const NavBar = (props) => {
             </ul>
             <div>
               <button className="btn-primary" type="submit">
-                Your Balance: 0
+                Your Balance: 10000
               </button>
             </div>
           </div>
